@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4845DA3A2077A54200675E8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4845DA392077A54200675E8D /* AppDelegate.m */; };
+		4845DA3D2077A54200675E8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4845DA3C2077A54200675E8D /* ViewController.m */; };
+		4845DA402077A54200675E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4845DA3E2077A54200675E8D /* Main.storyboard */; };
+		4845DA422077A54200675E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4845DA412077A54200675E8D /* Assets.xcassets */; };
+		4845DA452077A54200675E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4845DA432077A54200675E8D /* LaunchScreen.storyboard */; };
+		4845DA482077A54200675E8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4845DA472077A54200675E8D /* main.m */; };
+		4845DA522077A54200675E8D /* wxPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4845DA512077A54200675E8D /* wxPayDemoTests.m */; };
+		4845DA5D2077A54200675E8D /* wxPayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4845DA5C2077A54200675E8D /* wxPayDemoUITests.m */; };
+		8878D3BA2821E9C72F67949F /* libPods-wxPayDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB305B32A5588E97C4161715 /* libPods-wxPayDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4845DA4E2077A54200675E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4845DA2D2077A54200675E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4845DA342077A54200675E8D;
+			remoteInfo = wxPayDemo;
+		};
+		4845DA592077A54200675E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4845DA2D2077A54200675E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4845DA342077A54200675E8D;
+			remoteInfo = wxPayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3326B5A9D61379D306D838DB /* Pods-wxPayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxPayDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-wxPayDemo/Pods-wxPayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4845DA352077A54200675E8D /* wxPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wxPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4845DA382077A54200675E8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4845DA392077A54200675E8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4845DA3B2077A54200675E8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4845DA3C2077A54200675E8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4845DA3F2077A54200675E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4845DA412077A54200675E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4845DA442077A54200675E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4845DA462077A54200675E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4845DA472077A54200675E8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4845DA4D2077A54200675E8D /* wxPayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wxPayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4845DA512077A54200675E8D /* wxPayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wxPayDemoTests.m; sourceTree = "<group>"; };
+		4845DA532077A54200675E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4845DA582077A54200675E8D /* wxPayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wxPayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4845DA5C2077A54200675E8D /* wxPayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wxPayDemoUITests.m; sourceTree = "<group>"; };
+		4845DA5E2077A54200675E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99F2417F8A6D9B75324B795 /* Pods-wxPayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxPayDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wxPayDemo/Pods-wxPayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EB305B32A5588E97C4161715 /* libPods-wxPayDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wxPayDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4845DA322077A54200675E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8878D3BA2821E9C72F67949F /* libPods-wxPayDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4845DA4A2077A54200675E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4845DA552077A54200675E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4478AB3DEB50912DB55466EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B99F2417F8A6D9B75324B795 /* Pods-wxPayDemo.debug.xcconfig */,
+				3326B5A9D61379D306D838DB /* Pods-wxPayDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4845DA2C2077A54200675E8D = {
+			isa = PBXGroup;
+			children = (
+				4845DA372077A54200675E8D /* wxPayDemo */,
+				4845DA502077A54200675E8D /* wxPayDemoTests */,
+				4845DA5B2077A54200675E8D /* wxPayDemoUITests */,
+				4845DA362077A54200675E8D /* Products */,
+				4478AB3DEB50912DB55466EC /* Pods */,
+				6312A152DCBF11C14CC0443E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4845DA362077A54200675E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4845DA352077A54200675E8D /* wxPayDemo.app */,
+				4845DA4D2077A54200675E8D /* wxPayDemoTests.xctest */,
+				4845DA582077A54200675E8D /* wxPayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4845DA372077A54200675E8D /* wxPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4845DA382077A54200675E8D /* AppDelegate.h */,
+				4845DA392077A54200675E8D /* AppDelegate.m */,
+				4845DA3B2077A54200675E8D /* ViewController.h */,
+				4845DA3C2077A54200675E8D /* ViewController.m */,
+				4845DA3E2077A54200675E8D /* Main.storyboard */,
+				4845DA412077A54200675E8D /* Assets.xcassets */,
+				4845DA432077A54200675E8D /* LaunchScreen.storyboard */,
+				4845DA462077A54200675E8D /* Info.plist */,
+				4845DA472077A54200675E8D /* main.m */,
+			);
+			path = wxPayDemo;
+			sourceTree = "<group>";
+		};
+		4845DA502077A54200675E8D /* wxPayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4845DA512077A54200675E8D /* wxPayDemoTests.m */,
+				4845DA532077A54200675E8D /* Info.plist */,
+			);
+			path = wxPayDemoTests;
+			sourceTree = "<group>";
+		};
+		4845DA5B2077A54200675E8D /* wxPayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4845DA5C2077A54200675E8D /* wxPayDemoUITests.m */,
+				4845DA5E2077A54200675E8D /* Info.plist */,
+			);
+			path = wxPayDemoUITests;
+			sourceTree = "<group>";
+		};
+		6312A152DCBF11C14CC0443E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB305B32A5588E97C4161715 /* libPods-wxPayDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4845DA342077A54200675E8D /* wxPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4845DA612077A54200675E8D /* Build configuration list for PBXNativeTarget "wxPayDemo" */;
+			buildPhases = (
+				1DB2D5321861BD5B1AECF39D /* [CP] Check Pods Manifest.lock */,
+				4845DA312077A54200675E8D /* Sources */,
+				4845DA322077A54200675E8D /* Frameworks */,
+				4845DA332077A54200675E8D /* Resources */,
+				154CBD1241CF49A5729F1CB3 /* [CP] Embed Pods Frameworks */,
+				EE0038600CF58A2DD5F7AF43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wxPayDemo;
+			productName = wxPayDemo;
+			productReference = 4845DA352077A54200675E8D /* wxPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4845DA4C2077A54200675E8D /* wxPayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4845DA642077A54200675E8D /* Build configuration list for PBXNativeTarget "wxPayDemoTests" */;
+			buildPhases = (
+				4845DA492077A54200675E8D /* Sources */,
+				4845DA4A2077A54200675E8D /* Frameworks */,
+				4845DA4B2077A54200675E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4845DA4F2077A54200675E8D /* PBXTargetDependency */,
+			);
+			name = wxPayDemoTests;
+			productName = wxPayDemoTests;
+			productReference = 4845DA4D2077A54200675E8D /* wxPayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4845DA572077A54200675E8D /* wxPayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4845DA672077A54200675E8D /* Build configuration list for PBXNativeTarget "wxPayDemoUITests" */;
+			buildPhases = (
+				4845DA542077A54200675E8D /* Sources */,
+				4845DA552077A54200675E8D /* Frameworks */,
+				4845DA562077A54200675E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4845DA5A2077A54200675E8D /* PBXTargetDependency */,
+			);
+			name = wxPayDemoUITests;
+			productName = wxPayDemoUITests;
+			productReference = 4845DA582077A54200675E8D /* wxPayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4845DA2D2077A54200675E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kejishengui;
+				TargetAttributes = {
+					4845DA342077A54200675E8D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4845DA4C2077A54200675E8D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4845DA342077A54200675E8D;
+					};
+					4845DA572077A54200675E8D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4845DA342077A54200675E8D;
+					};
+				};
+			};
+			buildConfigurationList = 4845DA302077A54200675E8D /* Build configuration list for PBXProject "wxPayDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4845DA2C2077A54200675E8D;
+			productRefGroup = 4845DA362077A54200675E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4845DA342077A54200675E8D /* wxPayDemo */,
+				4845DA4C2077A54200675E8D /* wxPayDemoTests */,
+				4845DA572077A54200675E8D /* wxPayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4845DA332077A54200675E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4845DA452077A54200675E8D /* LaunchScreen.storyboard in Resources */,
+				4845DA422077A54200675E8D /* Assets.xcassets in Resources */,
+				4845DA402077A54200675E8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4845DA4B2077A54200675E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4845DA562077A54200675E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		154CBD1241CF49A5729F1CB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wxPayDemo/Pods-wxPayDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DB2D5321861BD5B1AECF39D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wxPayDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0038600CF58A2DD5F7AF43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wxPayDemo/Pods-wxPayDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4845DA312077A54200675E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4845DA3D2077A54200675E8D /* ViewController.m in Sources */,
+				4845DA482077A54200675E8D /* main.m in Sources */,
+				4845DA3A2077A54200675E8D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4845DA492077A54200675E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4845DA522077A54200675E8D /* wxPayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4845DA542077A54200675E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4845DA5D2077A54200675E8D /* wxPayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4845DA4F2077A54200675E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4845DA342077A54200675E8D /* wxPayDemo */;
+			targetProxy = 4845DA4E2077A54200675E8D /* PBXContainerItemProxy */;
+		};
+		4845DA5A2077A54200675E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4845DA342077A54200675E8D /* wxPayDemo */;
+			targetProxy = 4845DA592077A54200675E8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4845DA3E2077A54200675E8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4845DA3F2077A54200675E8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4845DA432077A54200675E8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4845DA442077A54200675E8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4845DA5F2077A54200675E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4845DA602077A54200675E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4845DA622077A54200675E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99F2417F8A6D9B75324B795 /* Pods-wxPayDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABCKE5L48A;
+				INFOPLIST_FILE = wxPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengui.yuntui.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4845DA632077A54200675E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3326B5A9D61379D306D838DB /* Pods-wxPayDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABCKE5L48A;
+				INFOPLIST_FILE = wxPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shengui.yuntui.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4845DA652077A54200675E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wxPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kejishengui.wxPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wxPayDemo.app/wxPayDemo";
+			};
+			name = Debug;
+		};
+		4845DA662077A54200675E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wxPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kejishengui.wxPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wxPayDemo.app/wxPayDemo";
+			};
+			name = Release;
+		};
+		4845DA682077A54200675E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wxPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kejishengui.wxPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wxPayDemo;
+			};
+			name = Debug;
+		};
+		4845DA692077A54200675E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wxPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kejishengui.wxPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wxPayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4845DA302077A54200675E8D /* Build configuration list for PBXProject "wxPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4845DA5F2077A54200675E8D /* Debug */,
+				4845DA602077A54200675E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4845DA612077A54200675E8D /* Build configuration list for PBXNativeTarget "wxPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4845DA622077A54200675E8D /* Debug */,
+				4845DA632077A54200675E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4845DA642077A54200675E8D /* Build configuration list for PBXNativeTarget "wxPayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4845DA652077A54200675E8D /* Debug */,
+				4845DA662077A54200675E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4845DA672077A54200675E8D /* Build configuration list for PBXNativeTarget "wxPayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4845DA682077A54200675E8D /* Debug */,
+				4845DA692077A54200675E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4845DA2D2077A54200675E8D /* Project object */;
+}
